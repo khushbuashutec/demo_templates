@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    
+}
+
+
+    
+.header{
+    height: 100px;
+    width:100%;
+    background-color: rgb(228, 224, 224);
+    border: 1px solid black ;
+}
+.header img{
+    height: 100px;
+    width: 150px;
+}
+
+.menu{
+    float: right;
+    position: relative;
+    margin: 5px;
+}
+.menu a{
+    padding-right:15px;
+    font-size: 20px;
+}
+.menu2{
+    float: right;
+    margin: 5px;
+}
+.menu2 button{
+    margin-right:10px;
+    padding:5px
+}
+.left{
+    height:100%;
+    width:27%;
+    background-color:rgb(228, 224, 224);
+    position: relative;
+}
+.content{
+    margin: auto;
+    padding:auto;
+    text-align: center;
+}
+.main{
+    background-color:rgb(228, 224, 224);
+    margin:left;
+    height:500px;
+    width:75%;
+    display:flex
+}
+.main img{
+    
+    width:100%;
+}
+@keyframes slide {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    body { margin: 0; } 
+.slider { overflow: hidden; }
+.slider figure img { width: 20%; float: left; }
+.slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 10s slide infinite;
+   
+    }
+.list{
+    text-align: center;
+}
+.footer
+{
+    display:flex;
+    background-color: rgba(0,0,0,0.13);
+   
+}
+.address{
+    text-align: center;
+    padding:10px;
+    width: 50%;
+}
+.contact{
+    text-align: center;
+    padding:10px;
+    float:right;
+    width: 50%;
+}
+h2{
+    text-align: center;
+}
