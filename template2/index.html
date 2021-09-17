@@ -8,10 +8,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
   </head>
 
   <body>
-    <div>
+    <div class="main">
       <div class="container">
         <header>
           <nav class="navigation">
@@ -78,18 +79,23 @@
                 <button class="see btn btn-hover2">See more</button>
               </div>
               <div class="image-part">
-                <div><img src="images\img1.jpg" atl="image1" /></div>
-                <div><img src="images\img2.jpg" atl="image1" /></div>
-                <div><img src="images\img3.jpg" atl="image1" /></div>
+                <div><img class="images-res" src="images\img1.jpg" atl="image1" /></div>
+                <div class="images-2">
+                  <img class="" src="images\img2.jpg" atl="image2" />
+                  <img class="" src="images\img3.jpg" atl="image3" />
+                </div>
               </div>
             </div>
           </div>
           <div class="section3">
-            <div class="flex-container">
-              <div class="image">
-                <img src="images\img4.jpg" alt="image" />
+            <div class="flex-container justify-items">
+              <div class="image-part">
+                <figure>
+                  <img src="images/img4.jpg" alt="image" />
+                </figure>
+                
               </div>
-              <div class="text">
+              <div class="text-part align-right">
                 <div class="title">
                   <h2>
                     <p class="normal_txt">our best</p>
@@ -129,7 +135,9 @@
           </div>
         </div>
         <div class="image">
+          <figure>
           <img src="images\about_img.jpg" alt="image" />
+        </figure>
         </div>
       </div>
       <div class="testimonial">
@@ -138,7 +146,7 @@
           <div class="tes-data">
             <div class="tes-heading">
               <h2>mark jonson</h2>
-              <img src="images/te1.png" alt="previous" />
+              <img  src="images/te1.png" alt="previous" />
             </div>
 
             <p>
@@ -208,3 +216,4 @@
     </div>
   </body>
 </html>
+

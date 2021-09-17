@@ -4,17 +4,21 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
 }
-.body {
-}
+
 .container {
   height: 100%;
   background-image: url("images/banner.jpg");
+  background-repeat: no-repeat;
 }
 .navigation {
   padding: 2rem 10rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.images-res{
+  width:100%;
+  height: auto;
 }
 .about {
   padding: 0 25px;
@@ -150,12 +154,20 @@ label {
 }
 .flex-container {
   display: flex;
-  gap: 3rem;
+  gap:3rem;
+  justify-content: center;
+  align-items: center;
 }
 .image-part {
   display: flex;
-  flex-wrap: wrap;
-  gap: 22px;
+  flex-direction: column;
+  gap:1rem;
+}
+.images-2{
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+  width:100%;
 }
 .text-part {
   padding-top: 76px;
@@ -184,6 +196,13 @@ label {
 .title .normal_txt {
   font-weight: normal;
 }
+.image{
+ 
+}
+.text{
+  display: flex;
+ 
+}
 .see {
   background-color: #000;
   color: #fff;
@@ -196,7 +215,10 @@ label {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 3rem;
+  gap: 3r em;
+}
+.align-right{
+  align-items: flex-end;
 }
 .section4 {
   background: #353e4e;
@@ -206,6 +228,7 @@ label {
   justify-content: center;
   align-items: center;
   gap: 5rem;
+  width:100%;
 }
 .about-part {
   display: flex;
@@ -347,4 +370,14 @@ label {
 .footer{
     text-align: center;
     padding:10px 0 50px 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
 }
+.footer a{
+  text-decoration: none;
+  color: #666;
+} 
+
+

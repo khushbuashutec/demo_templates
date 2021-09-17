@@ -1,0 +1,23 @@
+@media only screen and (max-width:1600px){
+    .title h2 {
+        font-size: 48px;
+    }
+    .image-part{
+        gap:18px;
+    }
+    .text-part .title {
+        padding-bottom: 24px;
+    }
+    .text-part{
+        padding-top: 70px;
+    }
+    .small-text p{ 
+        font-size: 1.2rem;
+        line-height:28px;
+        padding: 0 0px 30px 0px;
+    }
+    .text{
+        gap:2rem;
+    }
+    
+}
