@@ -163,8 +163,9 @@ label {
 .flex-container {
   display: flex;
   gap: 3rem;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
+  padding:2rem;
 }
 .image-part {
   display: flex;
@@ -201,7 +202,7 @@ label {
   font-size: 1.2rem;
   line-height: 2rem;
   color: #313131;
-  padding: 0 0px 3.2rem 0px;
+  padding-bottom: 3.2rem;
   font-weight: 500;
 }
 .title .normal_txt {
@@ -226,6 +227,7 @@ label {
 }
 .align-right {
   align-items: flex-end;
+  text-align: right;
 }
 .section4 {
   background: #353e4e;
