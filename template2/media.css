@@ -168,9 +168,9 @@
           padding:0 5rem 2rem 5rem;
       }
       .contact-container{
-          flex-direction: column;
-          margin: 0 auto;
-            gap:16rem;
+        flex-direction: column;
+        margin: 0 auto;
+        gap:16rem;
         padding:0 5rem 10rem 5rem;
       }
 }
